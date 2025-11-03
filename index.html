@@ -11,6 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+	      const appUrl = 'https://https://solo-insta-client-side.onrender.com';
+	
+	      // Send a "fire and forget" request to wake up the server.
+	      fetch(appUrl, { mode: 'no-cors' })
+	        .catch(error => console.log('Warming up server... (error is expected)'));
+	    </script>
 	</head>
 	<body class="is-preload">
 
@@ -209,5 +216,6 @@ s</p>
 
 	</body>
 </html>
+
 
 
