@@ -11,6 +11,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+		  //wake up render demo
+		  fetch("https://insta485-demo.onrender.com/", { mode: "no-cors" })
+			.catch(err => console.log("Wake-up failed (likely sleeping app):", err));
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -157,6 +162,7 @@
 
 	</body>
 </html>
+
 
 
 
