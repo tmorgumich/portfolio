@@ -61,3 +61,6 @@
   .button:hover {
     background-color: #ffa500 !important;
   }
+  blockquote {
+	  style="color: white;
+  }
