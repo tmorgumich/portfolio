@@ -2,6 +2,7 @@
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
 */
 
 /* Spotlights */
@@ -41,3 +42,22 @@
 		transform: none !important;
 		opacity: 1 !important;
 	}
+  a {
+    color: #00bfff; /* bright blue for visibility */
+    text-decoration: underline; /* underline to signal it's clickable */
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: #ffa500; /* orange hover highlight */
+  }
+
+  .button {
+    background-color: #00bfff !important;
+    color: white !important;
+    border-radius: 4px;
+  }
+
+  .button:hover {
+    background-color: #ffa500 !important;
+  }
